@@ -8,6 +8,7 @@ function permutations(arr) {
     }
 
     for (let i = 0; i < arr.length; i++) {
+      // remove this statement if version with repetitions is needed
       if (permutation.includes(arr[i])) {
         continue;
       }
